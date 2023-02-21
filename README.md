@@ -1,2 +1,3 @@
 # SDR
- bu proje bir takım projesi için tasarlanmıştır 
+
+bu proje bir takım projesi için tasarlanmıştır 
