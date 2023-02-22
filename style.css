@@ -76,3 +76,42 @@ main{
     color: azure;
 }
 
+/* footer stage */
+footer{
+    display: grid;
+    
+    grid-template-areas: 
+    "div1 div2 div3 div4"
+    "div5 div5 div5 div5";
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    margin-top: 10px;
+    gap: 10px;
+}
+
+footer > div{
+    text-align: center;
+    background-color: #000fff;
+}
+
+#one_div{
+    grid: div1;
+}
+
+#two_div{
+    grid: div2;
+}
+
+#three_div{
+    grid: div3;
+}
+
+#fourth_div{
+    grid: div4;
+}
+
+#fifth_div{
+    grid: div5;
+}
