@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3>şifre hessaplama aracı</h3>
+        <p>* doldurulması zorunlu alanlar</p>
+        
+        <div>
+            <input type="number" class="inp" id="length">
+            <label class="first" for="">* şifre uzunluğu</label>
+            <label class="last" for="">örn.8</label>
+        </div>
+        
+        <div>
+            <label class="first" for="">küçük harfler: </label>
+            <input type="checkbox" class="inp" id="sm_cont">
+            <label class="last" for="">a, b, c, ç, d, e, f, g, ğ, h, ı, i, j, k, l, m, n, o, ö, p, r, s, ş, t, u, ü, v, y, z</label>
+        </div>
+        
+        <div>
+            <label class="first" for="">BÜYÜK HARFLER: </label>
+            <input type="checkbox" class="inp" id="bg_cont">
+            <label class="last" for="">A, B, C, Ç, D, E, F, G, Ğ, H, I, İ, J, K, L, M, N, O, Ö, P, R, S, Ş, T, U, Ü, V, Y, Z</label>
+            
+        </div>
+        
+        <div>
+            <label class="first" for="">Sayılar: </label>
+            <input type="checkbox" class="inp" id="num_cont">
+            <label class="last" for="">0123456789</label>
+        </div>
+        
+        <div>
+            <label class="first" for="">Diğer Karakterler: </label>
+            <input type="checkbox" class="inp" id="chr_cont">
+            <label class="last" for="">!'^+%&/()=?=</label>
+        </div>
+        
+        <div class="hes_div">
+            <button id="hes" class="btn" onclick="pas()">Hesapla</button>
+            <button id="cls" class="btn" onclick="cls()">Temizle</button>
+        </div>
+    </main>
+</body>
+</html>

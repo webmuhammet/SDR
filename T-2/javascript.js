@@ -41,3 +41,4 @@ function böl(){
 
     document.getElementById("texböl").innerHTML = hes;
 }
+

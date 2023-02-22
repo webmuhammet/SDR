@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+main > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+
+/* btn */
+
+.hes_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:10px;
+}
+
+#length{
+    width: 30px;
+}
