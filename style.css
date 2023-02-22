@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,a{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav stage */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    padding: 10px;
+    align-items: center;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav > ul > li >a,
+nav > a{
+    color: azure;
+    text-decoration: none;
+}
+
+/* logo */
+#page_logo{
+    height: 50px;
+    width:  50px;
+}
+
+/* main stage */
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+/* one sect level */
+#one_sect{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    text-align: center;
+    gap: 10px;
+    min-height: 100px;
+    height: auto;
+    max-height: 150px;
+}
+
+#one_sect > article{
+    background-color: #000;
+    color: azure;
+}
+
+/* two sect level */
+#two_sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+    min-height: 100px;
+    height: auto;
+    max-height: 150px;
+}
+
+#two_sect > article{
+    background-color: #000;
+    color: azure;
+}
+
